@@ -1,0 +1,193 @@
+
+rgbd_dataset_freiburg1_xyz:::
+
+0.058286
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.034112 m
+translational_error.mean 0.028180 m
+translational_error.median 0.024278 m
+translational_error.std 0.019223 m
+translational_error.min 0.001874 m
+translational_error.max 0.113497 m
+rotational_error.rmse 1.680710 deg
+rotational_error.mean 1.400391 deg
+rotational_error.median 0.020791 deg
+rotational_error.std 0.929349 deg
+rotational_error.min 0.039848 deg
+rotational_error.max 5.137611 deg
+
+
+
+
+rgbd_dataset_freiburg2_desk::
+
+0.159052
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.014253 m
+translational_error.mean 0.012355 m
+translational_error.median 0.011353 m
+translational_error.std 0.007106 m
+translational_error.min 0.000765 m
+translational_error.max 0.057439 m
+rotational_error.rmse 0.636642 deg
+rotational_error.mean 0.555218 deg
+rotational_error.median 0.008736 deg
+rotational_error.std 0.311522 deg
+rotational_error.min 0.017913 deg
+rotational_error.max 2.509752 deg
+
+
+rgbd_dataset_freiburg2_desk_with_person::
+
+0.117968
+compared_pose_pairs 3269 pairs
+translational_error.rmse 0.038500 m
+translational_error.mean 0.019017 m
+translational_error.median 0.010521 m
+translational_error.std 0.033475 m
+translational_error.min 0.000000 m
+translational_error.max 0.363025 m
+rotational_error.rmse 0.996274 deg
+rotational_error.mean 0.646373 deg
+rotational_error.median 0.008481 deg
+rotational_error.std 0.758132 deg
+rotational_error.min 0.000000 deg
+rotational_error.max 8.513293 deg
+
+
+rgbd_dataset_freiburg3_sitting_static:::
+
+0.031719
+compared_pose_pairs 649 pairs
+translational_error.rmse 0.014402 m
+translational_error.mean 0.012239 m
+translational_error.median 0.010535 m
+translational_error.std 0.007590 m
+translational_error.min 0.000323 m
+translational_error.max 0.045442 m
+rotational_error.rmse 0.329362 deg
+rotational_error.mean 0.296299 deg
+rotational_error.median 0.004695 deg
+rotational_error.std 0.143826 deg
+rotational_error.min 0.028199 deg
+rotational_error.max 0.878164 deg
+
+
+rgbd_dataset_freiburg3_walking_halfsphere:::
+
+0.417858
+compared_pose_pairs 988 pairs
+translational_error.rmse 0.258905 m
+translational_error.mean 0.199905 m
+translational_error.median 0.145342 m
+translational_error.std 0.164529 m
+translational_error.min 0.007836 m
+translational_error.max 0.744703 m
+rotational_error.rmse 5.884323 deg
+rotational_error.mean 4.782463 deg
+rotational_error.median 0.065619 deg
+rotational_error.std 3.428309 deg
+rotational_error.min 0.035078 deg
+rotational_error.max 14.962530 deg
+
+
+rgbd_dataset_freiburg3_walking_rpy:::
+
+1.080912
+compared_pose_pairs 836 pairs
+translational_error.rmse 0.302833 m
+translational_error.mean 0.217678 m
+translational_error.median 0.156690 m
+translational_error.std 0.210532 m
+translational_error.min 0.006714 m
+translational_error.max 1.073204 m
+rotational_error.rmse 12.071184 deg
+rotational_error.mean 8.168240 deg
+rotational_error.median 0.093279 deg
+rotational_error.std 8.887820 deg
+rotational_error.min 0.079933 deg
+rotational_error.max 44.008467 deg
+
+
+rgbd_dataset_freiburg3_walking_static
+
+0.263097
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.174343 m
+translational_error.mean 0.117341 m
+translational_error.median 0.050132 m
+translational_error.std 0.128944 m
+translational_error.min 0.006671 m
+translational_error.max 0.516320 m
+rotational_error.rmse 2.451982 deg
+rotational_error.mean 1.695164 deg
+rotational_error.median 0.015907 deg
+rotational_error.std 1.771619 deg
+rotational_error.min 0.072183 deg
+rotational_error.max 7.000417 deg
+
+
+rgbd_dataset_freiburg3_walking_xyz:::
+
+0.863099
+compared_pose_pairs 797 pairs
+translational_error.rmse 0.277689 m
+translational_error.mean 0.230348 m
+translational_error.median 0.180122 m
+translational_error.std 0.155084 m
+translational_error.min 0.026239 m
+translational_error.max 0.717074 m
+rotational_error.rmse 4.935778 deg
+rotational_error.mean 4.043555 deg
+rotational_error.median 0.053664 deg
+rotational_error.std 2.830471 deg
+rotational_error.min 0.120902 deg
+rotational_error.max 12.369424 deg
+
+
+三角剖分
+0.039679
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.023632 m
+translational_error.mean 0.018013 m
+translational_error.median 0.012854 m
+translational_error.std 0.015296 m
+translational_error.min 0.000916 m
+translational_error.max 0.115948 m
+rotational_error.rmse 0.496744 deg
+rotational_error.mean 0.400566 deg
+rotational_error.median 0.005561 deg
+rotational_error.std 0.293772 deg
+rotational_error.min 0.013889 deg
+rotational_error.max 2.337303 deg
+
+0.027161
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.025909 m
+translational_error.mean 0.019443 m
+translational_error.median 0.013672 m
+translational_error.std 0.017124 m
+translational_error.min 0.000463 m
+translational_error.max 0.112679 m
+rotational_error.rmse 0.554385 deg
+rotational_error.mean 0.435519 deg
+rotational_error.median 0.005524 deg
+rotational_error.std 0.343024 deg
+rotational_error.min 0.032980 deg
+rotational_error.max 2.317380 deg
+
+0.023169
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.022817 m
+translational_error.mean 0.017808 m
+translational_error.median 0.013426 m
+translational_error.std 0.014265 m
+translational_error.min 0.000718 m
+translational_error.max 0.096884 m
+rotational_error.rmse 0.460170 deg
+rotational_error.mean 0.380525 deg
+rotational_error.median 0.005416 deg
+rotational_error.std 0.258761 deg
+rotational_error.min 0.046221 deg
+rotational_error.max 2.098474 deg
+

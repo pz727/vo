@@ -1,0 +1,258 @@
+
+
+rgbd_dataset_freiburg1_xyz:::最少16个内点，平均190个内点
+
+0.053903
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.025573 m
+translational_error.mean 0.022095 m
+translational_error.median 0.019663 m
+translational_error.std 0.012876 m
+translational_error.min 0.001340 m
+translational_error.max 0.067806 m
+rotational_error.rmse 1.496753 deg
+rotational_error.mean 1.311109 deg
+rotational_error.median 0.020976 deg
+rotational_error.std 0.721986 deg
+rotational_error.min 0.084535 deg
+rotational_error.max 4.456201 deg
+
+关键帧:::0.1,3,,196-114
+max　vec_key: 57
+min　vec_key: 1
+avg　vec_key: 5.16234
+
+0.069382
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.025612 m
+translational_error.mean 0.022391 m
+translational_error.median 0.020598 m
+translational_error.std 0.012434 m
+translational_error.min 0.001475 m
+translational_error.max 0.069104 m
+rotational_error.rmse 1.447447 deg
+rotational_error.mean 1.273626 deg
+rotational_error.median 0.020155 deg
+rotational_error.std 0.687736 deg
+rotational_error.min 0.077695 deg
+rotational_error.max 4.019266 deg
+
+0.065507
+compared_pose_pairs 761 pairs
+translational_error.rmse 0.029112 m
+translational_error.mean 0.024984 m
+translational_error.median 0.022608 m
+translational_error.std 0.014943 m
+translational_error.min 0.001459 m
+translational_error.max 0.095395 m
+rotational_error.rmse 1.489510 deg
+rotational_error.mean 1.313062 deg
+rotational_error.median 0.020478 deg
+rotational_error.std 0.703214 deg
+rotational_error.min 0.099862 deg
+rotational_error.max 3.994706 deg
+
+
+
+
+rgbd_dataset_freiburg2_desk::
+
+取１０倍匹配，１个像素的PnP
+0.218679
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.014854 m
+translational_error.mean 0.013336 m
+translational_error.median 0.012499 m
+translational_error.std 0.006543 m
+translational_error.min 0.000584 m
+translational_error.max 0.035722 m
+rotational_error.rmse 0.711822 deg
+rotational_error.mean 0.642516 deg
+rotational_error.median 0.010637 deg
+rotational_error.std 0.306372 deg
+rotational_error.min 0.050363 deg
+rotational_error.max 2.320914 deg
+
+
+
+内点最少３１,平均142
+0.289026
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.016316 m
+translational_error.mean 0.014306 m
+translational_error.median 0.012707 m
+translational_error.std 0.007844 m
+translational_error.min 0.000412 m
+translational_error.max 0.047209 m
+rotational_error.rmse 0.820643 deg
+rotational_error.mean 0.737783 deg
+rotational_error.median 0.012011 deg
+rotational_error.std 0.359349 deg
+rotational_error.min 0.034536 deg
+rotational_error.max 2.590416 deg
+
+
+关键帧0.1,3   最少内点１０，平均内点１２７
+max　vec_key: 31
+min　vec_key: 2
+avg　vec_key: 9.03125
+0.143675
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.018765 m
+translational_error.mean 0.016417 m
+translational_error.median 0.014913 m
+translational_error.std 0.009089 m
+translational_error.min 0.000754 m
+translational_error.max 0.050356 m
+rotational_error.rmse 0.663767 deg
+rotational_error.mean 0.563161 deg
+rotational_error.median 0.008342 deg
+rotational_error.std 0.351336 deg
+rotational_error.min 0.018542 deg
+rotational_error.max 2.820828 deg
+
+0.105677    三角剖分
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.018243 m
+translational_error.mean 0.015851 m
+translational_error.median 0.014223 m
+translational_error.std 0.009030 m
+translational_error.min 0.000760 m
+translational_error.max 0.086793 m
+rotational_error.rmse 0.644427 deg
+rotational_error.mean 0.558155 deg
+rotational_error.median 0.008541 deg
+rotational_error.std 0.322101 deg
+rotational_error.min 0.034244 deg
+rotational_error.max 2.607007 deg
+
+0.135260 ///surf
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.016910 m
+translational_error.mean 0.014467 m
+translational_error.median 0.013094 m
+translational_error.std 0.008754 m
+translational_error.min 0.000702 m
+translational_error.max 0.106759 m
+rotational_error.rmse 0.626128 deg
+rotational_error.mean 0.538359 deg
+rotational_error.median 0.008159 deg
+rotational_error.std 0.319696 deg
+rotational_error.min 0.012776 deg
+rotational_error.max 2.398922 deg
+
+
+
+rgbd_dataset_freiburg3_walking_static:::内点最少17个，平均140个
+
+0.687104
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.214623 m
+translational_error.mean 0.135933 m
+translational_error.median 0.052368 m
+translational_error.std 0.166088 m
+translational_error.min 0.001794 m
+translational_error.max 0.684773 m
+rotational_error.rmse 3.738750 deg
+rotational_error.mean 2.382770 deg
+rotational_error.median 0.014714 deg
+rotational_error.std 2.881086 deg
+rotational_error.min 0.072223 deg
+rotational_error.max 12.214197 deg
+
+关键帧:::最小内点10，平均内点９０
+max　vec_key: 116
+min　vec_key: 22
+avg　vec_key: 68.3333
+
+
+0.020973
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.025520 m
+translational_error.mean 0.017844 m
+translational_error.median 0.013115 m
+translational_error.std 0.018244 m
+translational_error.min 0.000781 m
+translational_error.max 0.186558 m
+rotational_error.rmse 0.492080 deg
+rotational_error.mean 0.372611 deg
+rotational_error.median 0.005155 deg
+rotational_error.std 0.321408 deg
+rotational_error.min 0.033801 deg
+rotational_error.max 3.473371 deg
+
+
+max　vec_key: 142
+min　vec_key: 3
+avg　vec_key: 55.0833
+0.015678
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.016577 m
+translational_error.mean 0.013338 m
+translational_error.median 0.010588 m
+translational_error.std 0.009845 m
+translational_error.min 0.000406 m
+translational_error.max 0.077995 m
+rotational_error.rmse 0.373148 deg
+rotational_error.mean 0.315126 deg
+rotational_error.median 0.004854 deg
+rotational_error.std 0.199837 deg
+rotational_error.min 0.015281 deg
+rotational_error.max 1.722095 deg
+
+
+yuanshi:::无三角
+0.073045
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.035280 m
+translational_error.mean 0.021056 m
+translational_error.median 0.011867 m
+translational_error.std 0.028307 m
+translational_error.min 0.001003 m
+translational_error.max 0.156516 m
+rotational_error.rmse 0.632807 deg
+rotational_error.mean 0.437744 deg
+rotational_error.median 0.005168 deg
+rotational_error.std 0.456974 deg
+rotational_error.min 0.027497 deg
+rotational_error.max 2.648778 deg
+
+surf,,,triangle
+0.027144
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.022705 m
+translational_error.mean 0.018015 m
+translational_error.median 0.013978 m
+translational_error.std 0.013820 m
+translational_error.min 0.000369 m
+translational_error.max 0.080969 m
+rotational_error.rmse 0.464876 deg
+rotational_error.mean 0.385412 deg
+rotational_error.median 0.005562 deg
+rotational_error.std 0.259937 deg
+rotational_error.min 0.035080 deg
+rotational_error.max 2.100845 deg
+
+
+
+rgbd_dataset_freiburg2_desk_with_person
+0.077843
+compared_pose_pairs 3266 pairs
+translational_error.rmse 0.014763 m
+translational_error.mean 0.011852 m
+translational_error.median 0.009933 m
+translational_error.std 0.008802 m
+translational_error.min 0.000000 m
+translational_error.max 0.083973 m
+rotational_error.rmse 0.560554 deg
+rotational_error.mean 0.469604 deg
+rotational_error.median 0.006923 deg
+rotational_error.std 0.306093 deg
+rotational_error.min 0.000000 deg
+rotational_error.max 5.197392 deg
+
+
+
+
+
+

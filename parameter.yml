@@ -1,0 +1,39 @@
+%YAML:1.0
+
+camera_id: fr2
+visualize: 0
+
+datadir: /home/pz/tum_dataset/rgbd_dataset_freiburg2_desk
+outdir: /home/pz/vo/result
+
+#　　迭代１次,大约1.5s,控制最大用时，即可，值太大时，当程序达到终止条件时，会自动停止
+num_iteration_g2o: 50
+
+#去除重复特征点距离参数
+max_feature_distance: 5
+
+#关键帧，平移旋转参数
+#0.2,5
+#0.1,4
+motion_translation: 0.1
+motion_angle: 4
+
+#最少内点阈值参数
+num_inlier_threshold: 10
+
+#最大连通子集欧氏距离阈值
+#  0.1  0.05  0.02  数值越低精度越低
+max_connected_domain_threshold: 100
+
+#最大连通子集马氏距离阈值
+# 2 1.5 1.2 1 数值越低精度越低
+max_connected_domain_mahalanobis_threshold: 10
+
+#最大团算法一致性距离阈值参数
+clique_inlier_threshold: 0.1
+
+#合适值20,运动一致模型参数
+max_feature_motion: 20
+
+detector: GridSURF
+descriptor: SURF

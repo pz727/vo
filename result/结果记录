@@ -1,0 +1,520 @@
+
+
+USE_MAX_CLIQUE:::
+translational_error.rmse 0.021619 m
+translational_error.mean 0.018815 m
+
+rotational_error.rmse 1.254451 deg
+rotational_error.mean 1.112406 deg
+
+
+USE_RANSAC:::
+translational_error.rmse 0.027227 m
+translational_error.mean 0.023497 m
+
+rotational_error.rmse 1.590359 deg
+rotational_error.mean 1.409633 deg
+
+
+0.607783
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.041163 m
+translational_error.mean 0.034289 m
+
+rotational_error.rmse 1.584016 deg
+rotational_error.mean 1.377945 deg
+
+0.298391
+compared_pose_pairs 2026 pairs
+translational_error.rmse 0.016223 m
+translational_error.mean 0.014550 m
+
+rotational_error.rmse 0.857238 deg
+rotational_error.mean 0.779977 deg
+
+
+单向重投影::最大团
+translational_error.rmse 0.020535 m
+translational_error.mean 0.017652 m
+
+rotational_error.rmse 1.194302 deg
+rotational_error.mean 1.043214 deg
+
+umeyama::最大团::false,无尺度缩放```````````````````参考
+translational_error.rmse 0.023268 m
+translational_error.mean 0.020745 m
+
+rotational_error.rmse 1.000342 deg
+rotational_error.mean 0.902726 deg
+
+umeyama::最大团::true,有尺度缩放,,,这个感觉不正确
+translational_error.rmse 0.018992 m
+translational_error.mean 0.017293 m
+
+rotational_error.rmse 0.998109 deg
+rotational_error.mean 0.901132 deg
+
+
+max_connected_domain+ransac　：：fr2_desk
+0.201861
+translational_error.rmse 0.015846 m
+translational_error.mean 0.014287 m
+
+rotational_error.rmse 0.779028 deg
+rotational_error.mean 0.710541 deg
+
+ransac   :::  fr2_desk
+0.240421
+translational_error.rmse 0.014366 m
+translational_error.mean 0.012832 m
+
+rotational_error.rmse 0.731900 deg
+rotational_error.mean 0.658994 deg
+
+ransac
+0.404014
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.113128 m
+translational_error.mean 0.067374 m
+translational_error.median 0.032408 m
+translational_error.std 0.090877 m
+translational_error.min 0.002142 m
+translational_error.max 0.513518 m
+rotational_error.rmse 1.990034 deg
+rotational_error.mean 1.182049 deg
+rotational_error.median 0.010236 deg
+rotational_error.std 1.600936 deg
+rotational_error.min 0.027742 deg
+rotational_error.max 9.077973 deg
+
+
+
+
+
+
+
+max_connected_domain+ransac　：：fr3_siting
+0.044351
+compared_pose_pairs 649 pairs
+translational_error.rmse 0.039383 m
+translational_error.mean 0.033407 m
+translational_error.median 0.029814 m
+translational_error.std 0.020857 m
+translational_error.min 0.002612 m
+translational_error.max 0.110664 m
+rotational_error.rmse 0.937215 deg
+rotational_error.mean 0.792970 deg
+rotational_error.median 0.011513 deg
+rotational_error.std 0.499569 deg
+rotational_error.min 0.117845 deg
+rotational_error.max 2.518047 deg
+
+ransac　：：fr3_siting
+0.016000
+compared_pose_pairs 649 pairs
+translational_error.rmse 0.017141 m
+translational_error.mean 0.013520 m
+translational_error.median 0.011662 m
+translational_error.std 0.010538 m
+translational_error.min 0.000975 m
+translational_error.max 0.083982 m
+rotational_error.rmse 0.402440 deg
+rotational_error.mean 0.350277 deg
+rotational_error.median 0.005609 deg
+rotational_error.std 0.198152 deg
+rotational_error.min 0.040342 deg
+rotational_error.max 1.643037 deg
+
+
+
+
+
+
+
+
+
+
+
+rgbd_dataset_freiburg1_xyz:::
+
+1....ransac
+0.067536
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.023566 m     0.025806 m
+translational_error.mean 0.020938 m     0.022426 m
+translational_error.median 0.018819 m
+translational_error.std 0.010815 m
+translational_error.min 0.001180 m
+translational_error.max 0.054692 m
+rotational_error.rmse 1.432741 deg      1.488633 deg
+rotational_error.mean 1.278709 deg      1.332769 deg
+rotational_error.median 0.020697 deg
+rotational_error.std 0.646259 deg
+rotational_error.min 0.057064 deg
+rotational_error.max 3.734306 deg
+
+2....max_clique   pnp   阈值:::0.01    pnp方法精度高,,,这个比ＲＡＮＳＡＣ精度还高
+0.036690
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.020530 m
+translational_error.mean 0.017648 m
+translational_error.median 0.015357 m
+translational_error.std 0.010490 m
+translational_error.min 0.001134 m
+translational_error.max 0.059729 m
+rotational_error.rmse 1.193541 deg
+rotational_error.mean 1.042627 deg
+rotational_error.median 0.015652 deg
+rotational_error.std 0.580921 deg
+rotational_error.min 0.092296 deg
+rotational_error.max 3.249281 deg
+
+3....max_clique   3d   阈值:::0.01　　　精度低
+0.045856
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.023279 m
+translational_error.mean 0.020761 m
+translational_error.median 0.019693 m
+translational_error.std 0.010530 m
+translational_error.min 0.000808 m
+translational_error.max 0.051991 m
+rotational_error.rmse 0.999501 deg
+rotational_error.mean 0.902101 deg
+rotational_error.median 0.015373 deg
+rotational_error.std 0.430368 deg
+rotational_error.min 0.040529 deg
+rotational_error.max 2.651248 deg
+
+
+4....MaxConnectedDomain + RANSAC    自适应马氏距离阈值: 0.5    最多数目特征点区域
+
+0.067739
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.030040 m
+translational_error.mean 0.026082 m
+translational_error.median 0.023210 m
+translational_error.std 0.014905 m
+translational_error.min 0.002942 m
+translational_error.max 0.085859 m
+rotational_error.rmse 1.751435 deg
+rotational_error.mean 1.519011 deg
+rotational_error.median 0.023381 deg
+rotational_error.std 0.871855 deg
+rotational_error.min 0.125854 deg
+rotational_error.max 5.486992 deg
+
+5....MaxConnectedDomain + RANSAC    自适应马氏距离阈值: 0.5    最大面积特征点区域
+
+0.047005
+compared_pose_pairs 762 pairs
+translational_error.rmse 0.035301 m
+translational_error.mean 0.029299 m
+translational_error.median 0.024728 m
+translational_error.std 0.019691 m
+translational_error.min 0.002105 m
+translational_error.max 0.100487 m
+rotational_error.rmse 1.583244 deg　　　角度误差偏小
+rotational_error.mean 1.423106 deg
+rotational_error.median 0.023449 deg
+rotational_error.std 0.693853 deg
+rotational_error.min 0.078524 deg
+rotational_error.max 3.703319 deg
+
+
+
+
+
+
+
+
+fr3_walking_static:::
+
+1....ransac
+0.386397
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.111045 m
+translational_error.mean 0.064372 m
+translational_error.median 0.028882 m
+translational_error.std 0.090483 m
+translational_error.min 0.001253 m
+translational_error.max 0.501777 m
+rotational_error.rmse 1.999072 deg
+rotational_error.mean 1.164120 deg
+rotational_error.median 0.009704 deg
+rotational_error.std 1.625150 deg
+rotational_error.min 0.073598 deg
+rotational_error.max 9.134289 deg
+
+
+2....max_clique   PnP  阈值:::0.05
+0.751775
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.309056 m
+translational_error.mean 0.203525 m
+translational_error.median 0.090572 m
+translational_error.std 0.232579 m
+translational_error.min 0.002361 m
+translational_error.max 0.846287 m
+rotational_error.rmse 5.010588 deg
+rotational_error.mean 3.362306 deg
+rotational_error.median 0.028035 deg
+rotational_error.std 3.714955 deg
+rotational_error.min 0.048277 deg
+rotational_error.max 14.470249 deg
+
+
+
+4....MaxConnectedDomain + RANSAC    自适应马氏距离阈值: 0.5    最大面积特征点区域
+
+0.360721
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.158050 m
+translational_error.mean 0.092947 m
+translational_error.median 0.032005 m
+translational_error.std 0.127831 m
+translational_error.min 0.000784 m
+translational_error.max 0.604750 m
+rotational_error.rmse 3.791490 deg
+rotational_error.mean 1.973093 deg
+rotational_error.median 0.011333 deg
+rotational_error.std 3.237638 deg
+rotational_error.min 0.082856 deg
+rotational_error.max 17.325306 deg
+
+
+5....MaxConnectedDomain + RANSAC    自适应马氏距离阈值: 1/3    最多数目特征点区域
+					误差很大，不可取								
+0.840970
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.415941 m
+translational_error.mean 0.203870 m
+translational_error.median 0.061385 m
+translational_error.std 0.362552 m
+translational_error.min 0.002368 m
+translational_error.max 1.972163 m
+rotational_error.rmse 12.681081 deg
+rotational_error.mean 5.204554 deg
+rotational_error.median 0.021147 deg
+rotational_error.std 11.563842 deg
+rotational_error.min 0.081195 deg
+rotational_error.max 66.481858 deg
+
+
+
+6....MaxConnectedDomain + RANSAC    自适应马氏距离阈值: 1/3    最大面积特征点区域
+         基本上可以区分运动物体上的特征点，以及静态背景的特征点
+         　　　　但是结果，却还是没有简单的RANSAC好
+         　　　　　　　　不知道为什么
+0.383803
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.204119 m
+translational_error.mean 0.129115 m
+translational_error.median 0.069537 m
+translational_error.std 0.158094 m
+translational_error.min 0.008374 m
+translational_error.max 0.899801 m
+rotational_error.rmse 5.627944 deg
+rotational_error.mean 2.942612 deg
+rotational_error.median 0.025838 deg
+rotational_error.std 4.797373 deg
+rotational_error.min 0.092637 deg
+rotational_error.max 28.456501 deg
+
+
+
+
+加入关键帧：：：
+
+fr3_walking_static:::
+
+2....ransac
+	motion_translation: 0.2
+	motion_angle: 5
+		0.025727
+		compared_pose_pairs 683 pairs
+		translational_error.rmse 	0.022828 m
+		translational_error.mean 	0.016742 m    //最佳结果
+		translational_error.median 	0.012233 m
+		translational_error.std 	0.015518 m
+		translational_error.min 	0.000487 m
+		translational_error.max 	0.104014 m
+		rotational_error.rmse 		0.429322 deg
+		rotational_error.mean 		0.350170 deg
+		rotational_error.median 	0.004970 deg
+		rotational_error.std 		0.248392 deg
+		rotational_error.min 		0.024406 deg
+		rotational_error.max 		2.165586 deg
+
+
+
+6....max_clique       阈值::: 0.01 
+		0.058095
+		compared_pose_pairs 682 pairs
+		translational_error.rmse 0.037923 m
+		translational_error.mean 0.028811 m
+		translational_error.median 0.020110 m
+		translational_error.std 0.024659 m
+		translational_error.min 0.002095 m
+		translational_error.max 0.167696 m
+		rotational_error.rmse 0.751153 deg
+		rotational_error.mean 0.576963 deg
+		rotational_error.median 0.007541 deg
+		rotational_error.std 0.480983 deg
+		rotational_error.min 0.045733 deg
+		rotational_error.max 3.860395 deg
+
+7....max_clique + RANSAC      阈值::: 0.1
+		0.012308
+		compared_pose_pairs 683 pairs
+		translational_error.rmse 0.016577 m
+		translational_error.mean 0.013277 m    //最佳结果
+		translational_error.median 0.010805 m
+		translational_error.std 0.009926 m
+		translational_error.min 0.000769 m
+		translational_error.max 0.072815 m
+		rotational_error.rmse 0.364588 deg
+		rotational_error.mean 0.313272 deg
+		rotational_error.median 0.004727 deg
+		rotational_error.std 0.186509 deg
+		rotational_error.min 0.006623 deg
+		rotational_error.max 1.334950 deg
+
+
+9....MaxConnectedDomain + max_clique       阈值::: 0.05
+
+		0.038075
+		compared_pose_pairs 683 pairs
+		translational_error.rmse 0.037135 m
+		translational_error.mean 0.028298 m
+		translational_error.median 0.020934 m
+		translational_error.std 0.024047 m
+		translational_error.min 0.000722 m
+		translational_error.max 0.195831 m
+		rotational_error.rmse 0.742716 deg
+		rotational_error.mean 0.575203 deg
+		rotational_error.median 0.007695 deg
+		rotational_error.std 0.469860 deg
+		rotational_error.min 0.033982 deg
+		rotational_error.max 3.772226 deg
+
+
+
+///程序调试点
+　　　　１１　　　去掉距离较大的边，
+　　　　２２　　去掉混合高斯模型，改成原始高斯模型
+
+0.018823
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.022233 m
+translational_error.mean 0.016924 m
+translational_error.median 0.013780 m
+translational_error.std 0.014417 m
+translational_error.min 0.001010 m
+translational_error.max 0.152031 m
+rotational_error.rmse 0.475179 deg
+rotational_error.mean 0.374438 deg
+rotational_error.median 0.005349 deg
+rotational_error.std 0.292560 deg
+rotational_error.min 0.043294 deg
+rotational_error.max 2.554192 deg
+
+
+
+测试10遍
+0.019447 m
+0.017153 m
+0.021574 m
+0.020299 m
+0.022214 m
+0.020197 m
+0.021278 m
+0.017251 m
+	0.017078 m    最佳结果
+0.025666 m
+0.0202157    6.52853601e-06
+
+0.018306 m
+0.017935 m
+0.015484 m
+	0.014909 m　　　　最佳结果
+0.015068 m
+0.020840 m
+0.016174 m
+0.015571 m
+0.016169 m
+0.015295 m
+0.0165751     3.22451249e-06
+
+采用原始误差模型
+0.019417 m
+0.017141 m
+						0.013821 m
+0.021177 m
+0.017657 m
+0.016712 m
+
+
+0.020415
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.016100 m
+translational_error.mean 0.013821 m
+translational_error.median 0.011727 m
+translational_error.std 0.008256 m
+translational_error.min 0.000689 m
+translational_error.max 0.059665 m
+rotational_error.rmse 0.347062 deg
+rotational_error.mean 0.308746 deg
+rotational_error.median 0.004993 deg
+rotational_error.std 0.158519 deg
+rotational_error.min 0.036919 deg
+rotational_error.max 1.211111 deg
+
+
+
+0.012818 m   ///原始ＲＡＮＳＡＣ＋原始高斯模型
+0.018723 m
+0.017750 m
+0.017449 m
+0.015205 m
+0.013279 m
+
+
+
+
+
+
+
+
+
+0.017412
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.021695 m
+translational_error.mean 0.016573 m
+translational_error.median 0.013610 m
+translational_error.std 0.014000 m
+translational_error.min 0.000708 m
+translational_error.max 0.152778 m
+rotational_error.rmse 0.451352 deg
+rotational_error.mean 0.362760 deg
+rotational_error.median 0.005447 deg
+rotational_error.std 0.268560 deg
+rotational_error.min 0.038233 deg
+rotational_error.max 2.572557 deg
+
+
+只用RANSAC,,,最佳结果
+0.011989
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.014409 m
+translational_error.mean 0.011800 m
+translational_error.median 0.009552 m
+translational_error.std 0.008269 m
+translational_error.min 0.000835 m
+translational_error.max 0.054661 m
+rotational_error.rmse 0.327390 deg
+rotational_error.mean 0.283904 deg
+rotational_error.median 0.004504 deg
+rotational_error.std 0.163041 deg
+rotational_error.min 0.015274 deg
+rotational_error.max 1.140831 deg
+

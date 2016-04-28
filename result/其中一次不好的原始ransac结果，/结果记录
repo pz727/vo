@@ -1,0 +1,60 @@
+0.016766
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.021840 m
+translational_error.mean 0.017077 m
+translational_error.median 0.013522 m
+translational_error.std 0.013614 m
+translational_error.min 0.001106 m
+translational_error.max 0.100303 m
+rotational_error.rmse 0.444487 deg
+rotational_error.mean 0.370289 deg
+rotational_error.median 0.005540 deg
+rotational_error.std 0.245875 deg
+rotational_error.min 0.020761 deg
+rotational_error.max 2.040812 deg
+
+0.016269
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.018437 m
+translational_error.mean 0.014809 m
+translational_error.median 0.012146 m
+translational_error.std 0.010983 m
+translational_error.min 0.001025 m
+translational_error.max 0.087416 m
+rotational_error.rmse 0.391432 deg
+rotational_error.mean 0.333934 deg
+rotational_error.median 0.005119 deg
+rotational_error.std 0.204224 deg
+rotational_error.min 0.007274 deg
+rotational_error.max 1.624677 deg
+
+0.015558
+compared_pose_pairs 683 pairs
+translational_error.rmse 0.020073 m
+translational_error.mean 0.016164 m
+translational_error.median 0.013417 m
+translational_error.std 0.011901 m
+translational_error.min 0.001374 m
+translational_error.max 0.106279 m
+rotational_error.rmse 0.408683 deg
+rotational_error.mean 0.351738 deg
+rotational_error.median 0.005311 deg
+rotational_error.std 0.208091 deg
+rotational_error.min 0.025896 deg
+rotational_error.max 1.835152 deg
+
+
+        int len = nums.size();
+        int rst(nums[0]+nums[1]+nums[2]);
+        for(int i=0;i<len;i++)
+            for(int j=i+1;j<len;j++)
+                for(int k=j+1;k<len;k++)
+                {
+                    if(abs(nums[i]+nums[j]+nums[k]-target)<abs(rst-target))
+                    {
+                        rst = nums[i]+nums[j]+nums[k];
+                    }
+                    
+                }
+            
+        return rst;  
